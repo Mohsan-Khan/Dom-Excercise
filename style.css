@@ -1,0 +1,47 @@
+/* .out {
+    background-color: rgb(184, 73, 73);
+    color: white;
+    padding: 1em 1em;
+}
+
+.input:focus {
+    border: 2px solid green;
+}
+
+li {
+    background-color: black;
+    color: white;
+    border: 1px dotted red;
+} */
+
+
+/* _____________________________________________ */
+
+body {
+    background-color: rgb(76, 92, 43);
+    text-align: center;
+}
+
+.button {
+    background-color: yellowgreen;
+    color: whitesmoke;
+    padding: 1em 1em;
+}
+
+input {
+    padding: 1em 1em;
+    border: 1px solid green;
+}
+
+.input:focus {
+    transition: .3s;
+    border: 2px solid green;
+}
+
+li {
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 1em 1em;
+    border: 2px solid greenyellow;
+}
