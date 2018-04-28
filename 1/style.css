@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: darkgreen;
+    color: white;
+    padding: .8em 2em;
+}
+
+li {
+    background-color: tomato;
+    color: silver;
+    padding: 1em 1em;
+    margin-top: 10px;
+    border: 2px solid burlywood;
+    list-style: none;
+}
+
+li:hover {
+    background-color: gray;
+    color: black;
+    border: 2px solid white;
+}
