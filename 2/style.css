@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.button {
+    background-color: darkgreen;
+    color: white;
+    padding: .8em 2em;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+}
+
+li {
+    background-color: tomato;
+    color: silver;
+    padding: 1em 1em;
+    margin-top: 20px;
+    border: 2px solid burlywood;
+    list-style: none;
+}
+
+li:hover {
+    background-color: gray;
+    color: black;
+    border: 2px solid white;
+}

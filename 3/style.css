@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: darkgrey;
+    color: white;
+    padding: .8em 2em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkgray;
+    color: black;
+    border: 2px solid silver;
+    transition: 1s;
+}
+
+.flex1 {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+li {
+    background-color: darkgray;
+    color: black;
+    padding: 1em 1em;
+    margin: 20px 10px 0 0;
+    border: 2px solid gray;
+    list-style: none;
+}
+
+li:hover {
+    background-color: whitesmoke;
+    border: 2px solid silver;
+    color: black;
+    border: 2px solid black;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+    padding: 1em 1em;
+    margin: 10px;
+    cursor: pointer;
+}

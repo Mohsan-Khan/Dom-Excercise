@@ -1,31 +1,50 @@
-body {
-    background-color: black;
-}
-
-.flex {
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
-    justify-content: space-around;
-}
-
-.button {
-    background-color: darkgreen;
+/* .out {
+    background-color: rgb(184, 73, 73);
     color: white;
-    padding: .8em 2em;
+    padding: 1em 1em;
+}
+
+.input:focus {
+    border: 2px solid green;
 }
 
 li {
-    background-color: tomato;
-    color: silver;
-    padding: 1em 1em;
-    margin-top: 10px;
-    border: 2px solid burlywood;
-    list-style: none;
+    background-color: black;
+    color: white;
+    border: 1px dotted red;
+} */
+
+
+/* _____________________________________________ */
+
+body {
+    background-color: rgb(76, 92, 43);
+    display: flex;
+    justify-content: center;
 }
 
-li:hover {
-    background-color: gray;
-    color: black;
-    border: 2px solid white;
+.button {
+    background-color: yellowgreen;
+    color: whitesmoke;
+    padding: 1em 1em;
+}
+
+input {
+    padding: 1em 1em;
+    border: 1px solid green;
+}
+
+.input:focus {
+    transition: .3s;
+    border: 2px solid green;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 1em 1em;
+    border: 2px solid greenyellow;
 }
