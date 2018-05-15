@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(58, 22, 55);
+    text-align: center;
+}
+
+h1 {
+    background-color: lightsalmon;
+    padding: .4em 1.4em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hours {
+    border-radius: 100%;
+    padding: .4em 1.4em;
+    background-color: limegreen;
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+#minutes {
+    padding: .4em 1.4em;
+    margin-left: 10px;
+    background-color: rgb(240, 17, 17);
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+#seconds {
+    padding: .4em 1.4em;
+    margin-left: 10px;
+    background-color: rgb(84, 202, 84);
+    color: whitesmoke;
+    font-weight: 100;
+}

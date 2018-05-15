@@ -1,9 +1,44 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: silver;
+    border: 2px solid black;
+    padding: .4em;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 75px;
+    padding: .4em;
+    display: inline-block;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, 0Verdana, sans-serif;
+    font-weight: 200;
+    border-radius: 30px;
+}
+
 .box {
     display: inline-block;
     text-align: center;
-    color: white;
+    color: silver;
     margin: 20px;
     height: 200px;
     width: 200px;
     border: 2px solid black;
+    border-radius: 50%;
 }
